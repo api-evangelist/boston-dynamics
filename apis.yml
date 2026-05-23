@@ -1,0 +1,101 @@
+aid: boston-dynamics
+name: Boston Dynamics
+description: >-
+  Boston Dynamics, a Hyundai Motor Group subsidiary, designs advanced mobile
+  robots including Spot (agile quadruped for dynamic sensing and industrial
+  inspection), Atlas (electric humanoid for manufacturing), Stretch (warehouse
+  case-handling robot), and the Orbit enterprise fleet management platform.
+  Boston Dynamics publishes a public, open-source Spot SDK (Python and C++)
+  on GitHub built on gRPC and Protocol Buffers for developing applications
+  and payloads for Spot; Atlas and Stretch are enterprise products without
+  public APIs.
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Atlas
+  - Boston Dynamics
+  - Fleet Management
+  - gRPC
+  - Hardware
+  - Humanoid Robots
+  - Industrial Inspection
+  - Quadrupedal Robots
+  - Robotics
+  - Spot
+  - Stretch
+  - Warehouse Automation
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/boston-dynamics/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: boston-dynamics:spot-sdk
+    name: Boston Dynamics Spot SDK
+    description: >-
+      The Spot SDK is an open-source SDK for developing applications and
+      payloads for the Spot quadruped robot. Built on gRPC and Protocol
+      Buffers, it provides Python and C++ libraries to control Spot, read
+      sensor and health data, run autonomous missions, and integrate payloads.
+      The SDK ships with example programs, quickstart guides, and concept
+      documentation on dev.bostondynamics.com.
+    humanURL: https://dev.bostondynamics.com/
+    tags:
+      - C++
+      - gRPC
+      - Payloads
+      - Python
+      - Quadruped
+      - SDK
+      - Spot
+    properties:
+      - type: Documentation
+        url: https://dev.bostondynamics.com/
+      - type: SourceCode
+        url: https://github.com/boston-dynamics/spot-sdk
+      - type: PythonSDK
+        url: https://github.com/boston-dynamics/spot-sdk
+      - type: CppSDK
+        url: https://github.com/boston-dynamics/spot-cpp-sdk
+      - type: QuickStart
+        url: https://github.com/boston-dynamics/spot-sdk/blob/master/docs/python/quickstart.md
+      - type: ProductPage
+        url: https://bostondynamics.com/products/spot/
+common:
+  - type: Website
+    url: https://bostondynamics.com/
+  - type: Products
+    url: https://bostondynamics.com/products/
+  - type: SpotProductPage
+    url: https://bostondynamics.com/products/spot/
+  - type: AtlasProductPage
+    url: https://bostondynamics.com/products/atlas/
+  - type: StretchProductPage
+    url: https://bostondynamics.com/products/stretch/
+  - type: OrbitProductPage
+    url: https://bostondynamics.com/products/orbit/
+  - type: DeveloperPortal
+    url: https://dev.bostondynamics.com/
+  - type: GitHubOrganization
+    url: https://github.com/boston-dynamics
+  - type: Support
+    url: https://support.bostondynamics.com/s/
+  - type: Training
+    url: https://support.bostondynamics.com/s/bdu
+  - type: Blog
+    url: https://bostondynamics.com/blog/
+  - type: News
+    url: https://bostondynamics.com/news/
+  - type: CaseStudies
+    url: https://bostondynamics.com/case-studies/
+  - type: Videos
+    url: https://bostondynamics.com/videos/
+  - type: Partners
+    url: https://bostondynamics.com/partners/
+  - type: ContactSales
+    url: https://bostondynamics.com/contact/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/boston-dynamics/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
