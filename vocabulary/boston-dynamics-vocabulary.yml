@@ -1,0 +1,173 @@
+vocabulary:
+  name: Boston Dynamics Vocabulary
+  description: >-
+    Key industrial robotics and automation concepts used across Boston Dynamics
+    products and the Spot SDK ecosystem, covering the Spot quadruped robot,
+    the Orbit fleet management platform, and related developer tooling.
+  version: "1.0.0"
+  terms:
+    - term: Spot
+      definition: >-
+        Boston Dynamics' agile quadrupedal robot designed for dynamic sensing,
+        industrial inspection, remote monitoring, and payload delivery across
+        complex terrain. Programmable via the open-source Spot SDK.
+      tags:
+        - robot
+        - quadruped
+        - hardware
+        - inspection
+
+    - term: Atlas
+      definition: >-
+        Boston Dynamics' fully electric humanoid robot built for manufacturing
+        and general-purpose dexterous manipulation tasks. An enterprise product
+        without a public developer API.
+      tags:
+        - robot
+        - humanoid
+        - manufacturing
+        - hardware
+
+    - term: Stretch
+      definition: >-
+        Boston Dynamics' warehouse automation robot designed for case handling —
+        unloading truck trailers and moving cases in distribution centers. An
+        enterprise product.
+      tags:
+        - robot
+        - warehouse
+        - logistics
+        - automation
+
+    - term: Orbit
+      definition: >-
+        Boston Dynamics' enterprise fleet management and data capture platform
+        for deploying, monitoring, and managing fleets of Spot robots across
+        industrial sites.
+      tags:
+        - fleet-management
+        - platform
+        - enterprise
+        - monitoring
+
+    - term: Spot SDK
+      definition: >-
+        Open-source software development kit providing Python and C++ libraries
+        for developing applications and payloads for the Spot robot. Built on
+        gRPC and Protocol Buffers; available on GitHub.
+      tags:
+        - sdk
+        - python
+        - cpp
+        - grpc
+        - open-source
+
+    - term: gRPC
+      definition: >-
+        High-performance, open-source universal RPC framework used as the
+        underlying communication protocol between the Spot SDK client and the
+        Spot robot's on-board services.
+      tags:
+        - protocol
+        - rpc
+        - communication
+        - networking
+
+    - term: Protobuf
+      definition: >-
+        Protocol Buffers — Google's language-neutral, platform-neutral mechanism
+        for serializing structured data. Used to define the Spot SDK message
+        schemas and service interfaces.
+      tags:
+        - serialization
+        - schema
+        - protocol
+        - communication
+
+    - term: GraphNav
+      definition: >-
+        Spot's autonomous navigation service that records and replays robot
+        routes as a topological map of waypoints and edges, enabling repeatable
+        autonomous missions across industrial sites.
+      tags:
+        - autonomy
+        - navigation
+        - mission
+        - mapping
+
+    - term: Payload
+      definition: >-
+        Hardware attachment mounted on Spot (e.g., cameras, LiDAR, sensors,
+        arms) whose capabilities are exposed to the SDK as additional services
+        via the Payload Registration API.
+      tags:
+        - hardware
+        - sensor
+        - integration
+        - extensibility
+
+    - term: E-Stop
+      definition: >-
+        Emergency stop mechanism required by the Spot SDK for any client
+        operating the robot. Cutting the E-Stop signal causes Spot to sit down
+        safely, providing a critical safety guarantee.
+      tags:
+        - safety
+        - control
+        - emergency
+        - protocol
+
+    - term: Lease
+      definition: >-
+        A resource ownership token within the Spot SDK that grants exclusive
+        control of the robot's body or an individual subsystem, preventing
+        conflicting commands from multiple clients.
+      tags:
+        - access-control
+        - concurrency
+        - safety
+        - sdk
+
+    - term: Industrial Inspection
+      definition: >-
+        Use case where Spot autonomously patrols facilities (oil and gas plants,
+        power substations, construction sites) to read gauges, detect anomalies,
+        and collect sensor data — replacing manual walkarounds.
+      tags:
+        - inspection
+        - industrial
+        - automation
+        - use-case
+
+    - term: Autonomy
+      definition: >-
+        The capability of Spot and other Boston Dynamics robots to navigate,
+        sense, and execute missions without continuous human teleoperation,
+        enabled by GraphNav, Autowalk, and the mission service.
+      tags:
+        - autonomy
+        - ai
+        - navigation
+        - mission
+
+    - term: Teleoperation
+      definition: >-
+        Remote manual control of a Boston Dynamics robot by a human operator
+        via the Spot SDK or the Scout/Orbit web interface, used for complex
+        tasks or environments not yet suitable for full autonomy.
+      tags:
+        - control
+        - remote
+        - operator
+        - interface
+
+    - term: Autowalk
+      definition: >-
+        A Spot feature enabling operators to record a mission walkthrough once
+        (by manually guiding the robot) and then replay it automatically,
+        used for repeatable autonomous inspection routes.
+      tags:
+        - mission
+        - autonomy
+        - inspection
+        - workflow

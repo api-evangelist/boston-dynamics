@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "bd": "https://bostondynamics.com/vocab#",
+    "robot": "https://bostondynamics.com/vocab#robot",
+
+    "BostonDynamics": {
+      "@id": "schema:Organization",
+      "@type": "@id"
+    },
+    "name": "schema:name",
+    "url": "schema:url",
+    "description": "schema:description",
+    "industry": "schema:industry",
+    "parentOrganization": "schema:parentOrganization",
+
+    "Robot": {
+      "@id": "bd:Robot",
+      "@type": "@id"
+    },
+    "RobotProduct": {
+      "@id": "bd:RobotProduct",
+      "@type": "@id"
+    },
+    "SDK": {
+      "@id": "bd:SDK",
+      "@type": "@id"
+    },
+    "Payload": {
+      "@id": "bd:Payload",
+      "@type": "@id"
+    },
+    "Mission": {
+      "@id": "bd:Mission",
+      "@type": "@id"
+    },
+    "Waypoint": {
+      "@id": "bd:Waypoint",
+      "@type": "@id"
+    },
+    "GraphNav": {
+      "@id": "bd:GraphNav",
+      "@type": "@id"
+    },
+    "FleetManagement": {
+      "@id": "bd:FleetManagement",
+      "@type": "@id"
+    },
+    "Orbit": {
+      "@id": "bd:Orbit",
+      "@type": "@id"
+    },
+    "Spot": {
+      "@id": "bd:Spot",
+      "@type": "@id"
+    },
+    "Atlas": {
+      "@id": "bd:Atlas",
+      "@type": "@id"
+    },
+    "Stretch": {
+      "@id": "bd:Stretch",
+      "@type": "@id"
+    },
+
+    "productName": "schema:name",
+    "manufacturer": "schema:manufacturer",
+    "softwareVersion": "schema:softwareVersion",
+    "programmingLanguage": "schema:programmingLanguage",
+    "codeRepository": "schema:codeRepository",
+    "documentation": "schema:documentation",
+    "operatingSystem": "schema:operatingSystem",
+    "applicationCategory": "schema:applicationCategory",
+    "serviceType": "schema:serviceType",
+    "areaServed": "schema:areaServed",
+
+    "grpc": "bd:grpc",
+    "protobuf": "bd:protobuf",
+    "autonomy": "bd:autonomy",
+    "locomotion": "bd:locomotion",
+    "sensor": "bd:sensor",
+    "estop": "bd:estop",
+    "lease": "bd:lease",
+    "teleoperation": "bd:teleoperation",
+    "inspection": "bd:inspection",
+    "warehouseAutomation": "bd:warehouseAutomation"
+  },
+  "@type": "Organization",
+  "name": "Boston Dynamics",
+  "url": "https://bostondynamics.com/",
+  "description": "Boston Dynamics designs advanced mobile robots including Spot, Atlas, and Stretch, and provides the Spot SDK for developing applications and payloads on the Spot quadruped robot.",
+  "industry": "Industrial Robotics",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Hyundai Motor Group",
+    "url": "https://www.hyundaimotorgroup.com/"
+  },
+  "bd:primaryProducts": [
+    { "@type": "bd:Robot", "name": "Spot", "url": "https://bostondynamics.com/products/spot/" },
+    { "@type": "bd:Robot", "name": "Atlas", "url": "https://bostondynamics.com/products/atlas/" },
+    { "@type": "bd:Robot", "name": "Stretch", "url": "https://bostondynamics.com/products/stretch/" },
+    { "@type": "bd:FleetManagement", "name": "Orbit", "url": "https://bostondynamics.com/products/orbit/" }
+  ],
+  "bd:developerPortal": "https://dev.bostondynamics.com/",
+  "bd:sdkRepository": "https://github.com/boston-dynamics/spot-sdk"
+}
