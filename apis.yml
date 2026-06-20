@@ -10,7 +10,7 @@ description: >-
   and payloads for Spot; Atlas and Stretch are enterprise products without
   public APIs.
 kind: company
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Atlas
   - Boston Dynamics
