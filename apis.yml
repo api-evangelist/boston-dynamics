@@ -57,7 +57,7 @@ apis:
         url: https://github.com/boston-dynamics/spot-sdk
       - type: CppSDK
         url: https://github.com/boston-dynamics/spot-cpp-sdk
-      - type: QuickStart
+      - type: GettingStarted
         url: https://github.com/boston-dynamics/spot-sdk/blob/master/docs/python/quickstart.md
       - type: ProductPage
         url: https://bostondynamics.com/products/spot/
