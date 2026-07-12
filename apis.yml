@@ -62,6 +62,10 @@ apis:
       - type: ProductPage
         url: https://bostondynamics.com/products/spot/
 common:
+  - type: VulnerabilityDisclosure
+    url: security/boston-dynamics-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/boston-dynamics-domain-security.yml
   - type: Website
     url: https://bostondynamics.com/
   - type: Products
