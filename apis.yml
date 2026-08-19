@@ -40,7 +40,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/boston-dynamics/refs/heads/main/apis.yml
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: boston-dynamics:spot-sdk
     name: Boston Dynamics Spot SDK
