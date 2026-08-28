@@ -10,6 +10,17 @@ description: >-
   and payloads for Spot; Atlas and Stretch are enterprise products without
   public APIs.
 kind: company
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
