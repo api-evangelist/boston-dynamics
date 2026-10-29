@@ -1,4 +1,4 @@
-# boston-dynamics
+# Boston Dynamics
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,117 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Boston Dynamics (Hyundai) — Spot, Atlas, Stretch robotic platforms
+Boston Dynamics, a Hyundai Motor Group subsidiary, designs advanced mobile robots including Spot (agile quadruped for dynamic sensing and industrial inspection), Atlas (electric humanoid for manufacturing), Stretch (warehouse case-handling robot), and the Orbit enterprise fleet management platform. Boston Dynamics publishes a public, open-source Spot SDK (Python and C++) on GitHub built on gRPC and Protocol Buffers for developing applications and payloads for Spot; Atlas and Stretch are enterprise products without public APIs.
+
+**Areas:** Atlas · Boston Dynamics · Fleet Management · gRPC · Hardware · Humanoid Robots · Industrial Inspection · Quadrupedal Robots · Robotics · Spot · Stretch · Warehouse Automation
+
+## Boston Dynamics on APIs.io
+
+Everything profiled for Boston Dynamics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/boston-dynamics/](https://apis.io/providers/boston-dynamics/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Boston Dynamics Spot SDK](https://apis.io/apis/boston-dynamics/spot-sdk/) — The Spot SDK is an open-source SDK for developing applications and payloads for the Spot quadruped robot. Built on gRPC and Protocol Buffers, it provides…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Boston Dynamics Context](https://apis.io/jsonld/boston-dynamics/boston-dynamics-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [Boston Dynamics Vocabulary](https://apis.io/vocabularies/boston-dynamics/boston-dynamics-vocabulary/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Boston Dynamics Domain Security](https://apis.io/security/boston-dynamics/boston-dynamics-domain-security/)
+- [Boston Dynamics Vulnerability Disclosure](https://apis.io/security/boston-dynamics/boston-dynamics-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Boston Dynamics Plans Pricing](https://apis.io/plans/boston-dynamics/boston-dynamics-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Boston Dynamics Rate Limits](https://apis.io/rate-limits/boston-dynamics/boston-dynamics-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Boston Dynamics Finops](https://apis.io/finops/boston-dynamics/boston-dynamics-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bostondynamics.com/)
+- [Support](https://support.bostondynamics.com/s/)
+- [Blog](https://bostondynamics.com/blog/)
+- [GitHub](https://github.com/boston-dynamics)
+
+## API Evangelist rating
+
+**Kin Score 19.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.0 |
+| Contract quality | 14.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/boston-dynamics/](https://apis.io/providers/boston-dynamics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Boston Dynamics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/boston-dynamics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
